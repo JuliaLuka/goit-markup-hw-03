@@ -1,0 +1,254 @@
+:root {
+    --iris: #4D5AE5;
+    --ocean: #404BBF;
+    --navy-blue: #2E2F42;
+    --green: #31D0AA;
+    --slate: #434455;
+    --light-slate: #8E8F99;
+    --cornflower: #E7E9FC;
+    --cloud: #F4F4FD;
+    --navy-blue-modal: #2E2F42;
+    --grey: #2E2F42;
+    --white: #FFFFFF;
+    --dairy: #FCFCFC;
+}
+
+
+/* Цвет текста на все тело */
+body {
+    background-color: #FFFFFF;
+    color: #434455;
+
+    font-family: Roboto, sans-serif;
+    letter-spacing: 0.02em;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* Убираем точки возле текста */
+.list {
+    list-style: none;
+}
+
+/* Логотип */
+.logo-header {
+    color: #4D5AE5;
+
+    font-family: Raleway, sans-serif;
+    letter-spacing: 0.03em;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    text-transform: uppercase;
+    
+}
+
+.logo-header.link {
+    text-decoration: none;
+}
+
+.logo-header .accent {
+    color:#2E2F42;
+}
+
+/* Стилизирование кнопок */
+.site-nav .link{
+    color: #2E2F42;
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    text-decoration: none;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus,
+.site-nav .link:active {
+    color: #404BBF;
+}
+
+/* Контактная информация */
+.contacts {
+    font-style: normal;
+}
+.contact.link {
+    color: #434455;
+    text-decoration: none;
+}
+
+.contact.link:hover,
+.contact.link:focus,
+.contact.link:active{
+    color:#404BBF;
+}
+
+/* Главная секция страницы */
+
+.hero {
+    background: #2E2F42;
+}
+
+.hero-title {
+    color: #FFFFFF;
+
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    text-align: center;
+
+}
+
+.hero .button {
+    background-color: #4D5AE5;
+    color: #FFFFFF;
+
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+}
+
+.hero .button:hover,
+.hero .button:focus,
+.hero .button:active {
+    background-color: #404BBF;
+    color: #FFFFFF;
+
+}
+
+/* Стилизация всех главных заголовков */
+.section-title {
+    color: #2E2F42;
+
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: capitalize;
+}
+/* Прячем завголовок второй секции */
+.section-title.box {
+    overflow: hidden;
+}
+
+/* Features */
+.features .title{
+    color: #2E2F42;
+
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.section-title.box {
+    visibility: hidden;
+}
+
+/* Team-list */
+.team {
+    background-color: #F4F4FD;
+}
+
+.team-card {
+    background-color: #FFFFFF;
+}
+
+.team-card .title {
+    color: #2E2F42;
+
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+/* Portfolio */
+.filter.list {
+    list-style: none;
+}
+
+/* Button Portfolio */
+.filter-btn {
+    border-color: #E7E9FC;
+    background-color: #F4F4FD;
+    color: #4D5AE5;
+
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+
+    cursor: pointer;
+}
+
+.filter-btn:hover,
+.filter-btn:focus {
+    border-color: #404BBF;
+    background-color: #404BBF;
+    color: #FFFFFF;
+
+}
+ /* Work list */
+.work-list.list {
+    color: #2E2F42;
+    
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    list-style: none;
+}
+
+.project-card.link {
+    text-decoration: none;
+}
+
+.project-card .title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    
+    color: #2E2F42;
+}
+
+.project-card .text {
+    color: #434455;
+
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+
+/* Футер */
+.page-footer {
+    background-color: #2E2F42;
+}
+
+/* Логотип футера */
+.logo-footer { 
+    color: #4D5AE5;
+    
+    font-family: Raleway, sans-serif;
+    letter-spacing: 0.03em;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    text-transform: uppercase;
+
+}
+
+.logo-footer.link {
+    text-decoration: none;
+}
+
+.logo-footer .accent {
+    color: #F4F4FD;
+}
+
