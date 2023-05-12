@@ -82,10 +82,11 @@ body {
 .header {
     padding-top: 24px;
     padding-bottom: 24px;
+
+    border-bottom: 1px solid #E7E9FC;
 }
 
-/* Почему не работает ? */
-.header-conteiner {
+.header-container {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -147,13 +148,13 @@ body {
 .address-list {
     display: flex;
     margin-left: auto;
+    gap: 40px;
 }
 
 .address-link {
     color: #434455;
     
 }
-
 
 .address-link:hover,
 .address-link:focus,
@@ -165,11 +166,14 @@ body {
 
 .hero {
     background: #2E2F42;
-    padding-top: 188px;
-    padding-bottom: 188px;
+    padding: 188px 0;
+    text-align: center;
 }
 
 .hero-title {
+    width: 496px;
+    margin: 0 auto;
+    margin-bottom: 48px;
     color: #FFFFFF;
 
     font-weight: 700;
@@ -178,14 +182,13 @@ body {
     letter-spacing: 0.02em;
     text-align: center;
 
-    margin-bottom: 48px;
+    
 
 }
 
 .hero-button {
-    margin-bottom: 188px;
-    border-radius: 4px;
     padding: 16px 32px;
+    border-radius: 4px;
     background-color: #4D5AE5;
     color: #FFFFFF;
 
@@ -221,10 +224,16 @@ body {
 /* Features */
 .features-section {
     padding-top: 120px;
-    padding-bottom: 120px;
+    padding-bottom: 60px;
 }
 .features-title {
     display: none;
+}
+
+.features-list {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
 }
 
 .features-list-title {
@@ -239,11 +248,20 @@ body {
 }
  /* We doing */
 .we-doing-section {
+    padding-top: 60px;
     padding-bottom: 120px;
 }
 
 .we-doing-section-title {
     margin-bottom: 72px;
+
+    text-align: center;
+}
+
+.we-doing-list-img {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
 }
 
 /* Team-list */
@@ -254,20 +272,38 @@ body {
 }
 .team-section-title {
     margin-bottom: 72px;
+
+    text-align: center;
+}
+
+.team-list {
+    display: flex;
+    justify-content: space-between;
+
 }
 
 .team-card-list {
     background-color: #FFFFFF;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    border-radius: 0px 0px 4px 4px;
 }
 
 .team-card-title {
     color: #2E2F42;
+    margin-top: 32px;
     margin-bottom: 8px;
 
     font-weight: 500;
+    text-align: center;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
+}
+
+.team-card-text {
+    margin-bottom: 32px;
+
+    text-align: center;
 }
 
 /* Portfolio */
@@ -275,10 +311,16 @@ body {
     display: none;
 }
 
-
 /* Button Portfolio */
+.portfolio-btn-list{ 
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+
+    margin-bottom: 72px;
+}
+
 .portfolio-btn-link {
-    display: inline-block;
     border-radius: 4px;
     padding: 12px 24px;
     min-width: 78px;
@@ -304,15 +346,25 @@ body {
 }
  /* Portfolio list */
 .portfolio-list {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
+    
     color: #2E2F42;
     
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
 }
-
+.portfolio-link-wrap {
+    padding: 32px 16px;
+    border: 1px solid #E7E9FC;
+    border-top: none;
+}
 
 .portfolio-link-title {
+    margin-top: 32px ;
     margin-bottom: 8px;
     color: #2E2F42;
 
@@ -323,6 +375,7 @@ body {
 }
 
 .portfolio-link-text {
+    margin-bottom: 32px;
     color: #434455;
 
     font-size: 16px;
@@ -330,12 +383,17 @@ body {
     letter-spacing: 0.02em;
 }
 
-
+  /* border: 1px solid #E7E9FC; */
 /* Футер */
 .footer {
+    display: flex;
     background-color: #2E2F42;
     padding-top: 100px;
     padding-bottom: 100px;
+}
+
+.footer-wrap {
+    width: 264px;
 }
 
 .footer-logo-link { 
