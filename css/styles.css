@@ -117,15 +117,13 @@ body {
 .navigation-list {
     display: flex;
     align-items: center;
+    gap: 40px;
 }
 
 .navigation-item {
     padding: 24px 0;
 }
 
-.navigation-item:not(:last-child) {
-    margin-right: 40px;
-}
 
 .navigation-link {
     color: #2E2F42;
